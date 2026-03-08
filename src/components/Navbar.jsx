@@ -47,13 +47,13 @@ export default function Navbar() {
       {/* Mobile Menu */}
       {open && (
         <div className="md:hidden bg-black border-t border-yellow-600/20 px-6 py-4 flex flex-col gap-3">
-          {["academy", "software", "contacts"].map((item) => (
+          {["hero", "academy", "software", "contacts"].map((item) => (
             <button
               key={item}
               onClick={() => scrollTo(item)}
               className="w-full py-3 rounded-full border border-red-700 text-white font-semibold uppercase tracking-wider text-sm hover:bg-red-700/30 transition-all"
             >
-              {item}
+              {item === "hero" ? "Home" : item}
             </button>
           ))}
         </div>
