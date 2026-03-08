@@ -14,9 +14,11 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
         {/* Logo + Title */}
         <div className="flex items-center gap-4">
-          <div className="w-16 h-16 rounded-full bg-gradient-to-br from-yellow-500 to-yellow-700 flex items-center justify-center shadow-lg shadow-yellow-600/30">
-            <span className="text-black font-black text-xl">ZEP</span>
-          </div>
+          <img
+            src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/69ad6909a4c3839990a358c8/ee1366ca4_ZambaraEngineeringLogo.png"
+            alt="Zambara Engineering Projects Logo"
+            className="w-20 h-20 object-contain mix-blend-lighten"
+          />
           <div className="hidden sm:block">
             <p className="text-yellow-400 font-black text-lg tracking-widest leading-tight">ZAMBARA ENGINEERING</p>
             <p className="text-yellow-400 font-black text-lg tracking-widest leading-tight">PROJECTS</p>
