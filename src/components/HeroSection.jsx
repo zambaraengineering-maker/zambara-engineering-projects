@@ -8,7 +8,7 @@ export default function HeroSection() {
         <h1 className="text-4xl md:text-6xl text-yellow-400 tracking-widest uppercase mb-4 drop-shadow-[0_0_30px_rgba(234,179,8,0.4)]" style={{ fontFamily: "'Book Antiqua', 'Palatino Linotype', Palatino, serif", fontWeight: 'bold' }}>
           ZAMBARA ENGINEERING PROJECTS
         </h1>
-        <p className="text-gray-300 text-lg md:text-xl max-w-2xl mx-auto mb-10">
+        <p className="text-white text-lg md:text-xl max-w-2xl mx-auto mb-10 font-medium drop-shadow-[0_0_10px_rgba(255,255,255,0.3)]">
           Engineering innovation through simulation, scheduling, and education — empowering projects from concept to completion.
         </p>
       </div>
