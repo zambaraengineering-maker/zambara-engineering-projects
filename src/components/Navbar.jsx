@@ -13,14 +13,12 @@ export default function Navbar() {
     <nav className="sticky top-0 z-50 bg-black/95 backdrop-blur border-b border-yellow-600/30">
       <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
         {/* Logo + Title */}
-        <div className="flex items-center gap-4">
-          <div className="w-16 h-16 rounded-full bg-gradient-to-br from-yellow-500 to-yellow-700 flex items-center justify-center shadow-lg shadow-yellow-600/30">
-            <span className="text-black font-black text-xl">ZEP</span>
-          </div>
-          <div className="hidden sm:block">
-            <p className="text-yellow-400 font-black text-lg tracking-widest leading-tight">ZAMBARA ENGINEERING</p>
-            <p className="text-yellow-400 font-black text-lg tracking-widest leading-tight">PROJECTS</p>
-          </div>
+        <div className="flex items-center">
+          <img
+            src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/69ad6909a4c3839990a358c8/47223354b_ZambaraEngineeringLogo.png"
+            alt="Zambara Engineering Projects Logo"
+            className="h-16 w-auto object-contain"
+          />
         </div>
 
         {/* Desktop Nav */}
