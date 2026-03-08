@@ -3,9 +3,11 @@ export default function Footer() {
     <footer className="bg-black border-t border-yellow-600/20 py-10 px-6">
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6">
         <div className="flex items-center gap-4">
-          <div className="w-12 h-12 rounded-full bg-gradient-to-br from-yellow-500 to-yellow-700 flex items-center justify-center shadow-lg shadow-yellow-600/30">
-            <span className="text-black font-black text-sm">ZEP</span>
-          </div>
+          <img
+            src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/69ad6909a4c3839990a358c8/47223354b_ZambaraEngineeringLogo.png"
+            alt="Zambara Engineering Projects Logo"
+            className="h-12 w-auto object-contain"
+          />
           <div>
             <p className="text-yellow-400 font-black tracking-wider text-sm">ZAMBARA ENGINEERING PROJECTS</p>
             <p className="text-gray-600 text-xs mt-0.5">Engineering Excellence, Every Project.</p>
