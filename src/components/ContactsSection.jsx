@@ -30,10 +30,10 @@ export default function ContactsSection() {
               <h3 className="text-white font-bold text-xl mb-6">Connect With Us</h3>
               <div className="space-y-5">
                 {[
-                  { Icon: Mail, label: "Email", value: "info@zambaraengineering.com" },
-                  { Icon: Phone, label: "Phone", value: "+1 (800) ZEP-PROJ" },
-                  { Icon: MapPin, label: "Location", value: "Johannesburg, South Africa" },
-                ].map(({ Icon, label, value }) => (
+                { icon: Mail, label: "Email", value: "info@zambaraengineering.com" },
+                { icon: Phone, label: "Phone", value: "+1 (800) ZEP-PROJ" },
+                { icon: MapPin, label: "Location", value: "Johannesburg, South Africa" },
+                ].map(({ icon: Icon, label, value }) => (
                   <div key={label} className="flex items-center gap-4">
                     <div className="w-12 h-12 rounded-xl bg-yellow-900/30 border border-yellow-600/30 flex items-center justify-center flex-shrink-0">
                       <Icon className="text-yellow-400 w-5 h-5" />
