@@ -27,13 +27,13 @@ export default function Navbar() {
 
         {/* Desktop Nav */}
         <div className="hidden md:flex items-center gap-3">
-          {["academy", "software", "contacts"].map((item) => (
+          {["hero", "academy", "software", "contacts"].map((item) => (
             <button
               key={item}
               onClick={() => scrollTo(item)}
               className="px-6 py-2 rounded-full border border-red-700 text-white font-semibold uppercase tracking-wider text-sm hover:bg-red-700/30 hover:border-red-500 transition-all duration-200"
             >
-              {item}
+              {item === "hero" ? "Home" : item}
             </button>
           ))}
         </div>
