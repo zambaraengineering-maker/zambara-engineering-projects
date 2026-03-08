@@ -57,7 +57,13 @@ export default function ProductsSection() {
               onClick={() => scrollTo(p.section)}
               className={`group relative rounded-2xl border ${p.border} bg-gradient-to-br ${p.color} p-6 text-left flex flex-col items-center text-center shadow-xl ${p.glow} hover:scale-[1.03] transition-all duration-300 cursor-pointer`}
             >
-              <div className="text-5xl mb-4">{p.icon}</div>
+              <div className="h-20 w-20 mb-4 flex items-center justify-center">
+                {p.icon ? (
+                  <img src={p.icon} alt={p.name} className="h-full w-full object-contain" />
+                ) : (
+                  <span className="text-5xl">{p.iconEmoji}</span>
+                )}
+              </div>
               <p className={`font-black text-base md:text-lg ${p.accent} tracking-wider`}>{p.name}</p>
               <p className="text-gray-400 text-xs mt-2 tracking-widest uppercase">{p.tagline}</p>
             </button>

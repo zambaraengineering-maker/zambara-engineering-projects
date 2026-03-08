@@ -66,7 +66,9 @@ export default function SoftwareSection() {
               key={sw.name}
               className={`rounded-2xl border ${sw.border} bg-gradient-to-br ${sw.color} p-8 shadow-2xl ${sw.glow} hover:scale-[1.02] transition-all duration-300 flex flex-col`}
             >
-              <div className="text-5xl mb-5">{sw.icon}</div>
+              <div className="h-24 w-24 mb-5 flex items-center justify-center">
+                <img src={sw.icon} alt={sw.name} className="h-full w-full object-contain" />
+              </div>
               <p className={`font-black text-xl ${sw.accent} tracking-wider mb-1`}>{sw.name}</p>
               <p className="text-gray-500 text-xs tracking-widest uppercase mb-6">{sw.tagline}</p>
 
