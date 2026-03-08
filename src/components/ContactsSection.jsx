@@ -30,17 +30,22 @@ export default function ContactsSection() {
               <h3 className="text-white font-bold text-xl mb-6">Connect With Us</h3>
               <div className="space-y-5">
                 {[
-                { icon: Mail, label: "Email", value: "info@zambaraengineering.com" },
-                { icon: Phone, label: "Phone", value: "+1 (800) ZEP-PROJ" },
-                { icon: MapPin, label: "Location", value: "Johannesburg, South Africa" },
-                ].map(({ icon: Icon, label, value }) => (
+                { icon: Mail, label: "Email", value: "info@zambaraengineering.com", href: null },
+                { icon: Phone, label: "Phone", value: "+27 79 143 0795  |  +27 81 537 6059", href: null },
+                { icon: MapPin, label: "Location", value: "Johannesburg, South Africa", href: null },
+                { icon: MessageCircle, label: "WhatsApp", value: "+27 79 143 0795", href: "https://wa.me/27791430795" },
+                ].map(({ icon: Icon, label, value, href }) => (
                   <div key={label} className="flex items-center gap-4">
                     <div className="w-12 h-12 rounded-xl bg-yellow-900/30 border border-yellow-600/30 flex items-center justify-center flex-shrink-0">
                       <Icon className="text-yellow-400 w-5 h-5" />
                     </div>
                     <div>
                       <p className="text-gray-500 text-xs uppercase tracking-wider">{label}</p>
-                      <p className="text-white font-medium">{value}</p>
+                      {href ? (
+                        <a href={href} target="_blank" rel="noopener noreferrer" className="text-green-400 font-medium hover:text-green-300 transition-colors">{value}</a>
+                      ) : (
+                        <p className="text-white font-medium">{value}</p>
+                      )}
                     </div>
                   </div>
                 ))}
