@@ -20,8 +20,8 @@ export default function AcademySection() {
       <div className="max-w-7xl mx-auto">
         {/* Header */}
         <div className="flex flex-col md:flex-row items-start md:items-center gap-6 mb-14">
-          <div className="w-20 h-20 rounded-2xl bg-gradient-to-br from-yellow-500 to-yellow-700 flex items-center justify-center text-4xl shadow-xl shadow-yellow-600/30 flex-shrink-0">
-            🎓
+          <div className="w-20 h-20 flex items-center justify-center flex-shrink-0">
+            <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/69ad6909a4c3839990a358c8/47c9e6b9e_ZEPAcademylogo.png" alt="ZEP Academy" className="w-full h-full object-contain" />
           </div>
           <div>
             <p className="text-yellow-500 text-sm font-bold tracking-[0.3em] uppercase mb-1">ZEP Academy</p>
