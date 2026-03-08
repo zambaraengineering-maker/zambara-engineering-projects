@@ -2,7 +2,7 @@ const software = [
   {
     name: "ZEP SimuVerse PM",
     tagline: "SYSTEMS SIMULATION SOFTWARE",
-    icon: "🦏",
+    icon: "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/69ad6909a4c3839990a358c8/ce96262f6_ZEPPMSimulatorLogoonly.png",
     color: "from-cyan-900/40 to-blue-900/20",
     border: "border-cyan-500/30",
     accent: "text-cyan-400",
@@ -17,7 +17,7 @@ const software = [
   {
     name: "ZEP Maximus",
     tagline: "SYSTEM CARE SOFTWARE",
-    icon: "🐃",
+    icon: "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/69ad6909a4c3839990a358c8/7fdf5903d_MaximusLogo.png",
     color: "from-purple-900/40 to-purple-800/20",
     border: "border-purple-500/30",
     accent: "text-purple-400",
@@ -32,7 +32,7 @@ const software = [
   {
     name: "ZEP Schedule",
     tagline: "SCHEDULE ANALYZER",
-    icon: "🐯",
+    icon: "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/69ad6909a4c3839990a358c8/0ea73e61a_ScheduleAnalyserlconCheetah.png",
     color: "from-orange-900/40 to-orange-800/20",
     border: "border-orange-500/30",
     accent: "text-orange-400",
