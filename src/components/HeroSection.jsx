@@ -5,7 +5,7 @@ export default function HeroSection() {
       <div className="absolute inset-0 bg-gradient-to-br from-yellow-900/10 via-black to-black pointer-events-none" />
 
       <div className="max-w-7xl mx-auto px-6 pt-16 pb-8 text-center">
-        <h1 className="text-4xl md:text-6xl font-black text-yellow-400 tracking-widest uppercase mb-4 drop-shadow-[0_0_30px_rgba(234,179,8,0.4)]">
+        <h1 className="text-4xl md:text-6xl text-yellow-400 tracking-widest uppercase mb-4 drop-shadow-[0_0_30px_rgba(234,179,8,0.4)]" style={{ fontFamily: "'Book Antiqua', 'Palatino Linotype', Palatino, serif", fontWeight: 'bold' }}>
           ZAMBARA ENGINEERING PROJECTS
         </h1>
         <p className="text-gray-300 text-lg md:text-xl max-w-2xl mx-auto mb-10">
