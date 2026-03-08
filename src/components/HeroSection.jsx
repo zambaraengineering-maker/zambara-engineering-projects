@@ -17,7 +17,7 @@ export default function HeroSection() {
       <div className="max-w-5xl mx-auto px-6 pb-12">
         <div className="relative rounded-2xl overflow-hidden border border-yellow-600/20 shadow-2xl shadow-yellow-600/10">
           <img
-            src="https://images.unsplash.com/photo-1581091226033-d5c48150dbaa?w=1200&q=80"
+            src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/69ad6909a4c3839990a358c8/0fdafb8bc_Gemini_Generated_Image_v489f2v489f2v489.png"
             alt="Engineering team in meeting"
             className="w-full h-[400px] md:h-[520px] object-cover"
           />
