@@ -30,7 +30,7 @@ export default function ContactsSection() {
               <h3 className="text-white font-bold text-xl mb-6">Connect With Us</h3>
               <div className="space-y-5">
                 {[
-                { icon: Mail, label: "Email", value: "info@zambaraengineering.com", href: null },
+                { icon: Mail, label: "Email", value: "zambaraengineering@gmail.com", href: null },
                 { icon: Phone, label: "Phone", value: "+27 79 143 0795  |  +27 81 537 6059", href: null },
                 { icon: MapPin, label: "Location", value: "Johannesburg, South Africa", href: null },
                 { icon: MessageCircle, label: "WhatsApp", value: "+27 79 143 0795", href: "https://wa.me/27791430795" },
